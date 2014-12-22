@@ -1,0 +1,26 @@
+#page {
+	/*
+	margin: 0 auto;
+	max-width: 50em;	
+	*/
+}
+
+#search-term {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: gray;
+}
+
+#query, #search-button {
+	padding: 2px 6px;
+}
+
+#search-button {
+	margin-left: -4px;
+}
+
+#search-results {
+	text-align: center;
+	margin-top: 1em;
+}
