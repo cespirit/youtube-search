@@ -30,6 +30,10 @@ hr {
 	margin-left: -0.3em;
 }
 
+.results {
+	padding-bottom: 2em;
+}
+
 .search-details {
 	text-align: center;
 }
