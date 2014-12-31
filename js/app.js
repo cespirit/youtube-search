@@ -15,7 +15,7 @@ $(document).ready(function(){
 			order: "relevance",
 			q: searchTerm,
 			type: "video"
-		}
+		};
 		url = "https://www.googleapis.com/youtube/v3/search";
 
 		$.getJSON(url, params, function(data) {
@@ -41,7 +41,6 @@ $(document).ready(function(){
 	    });
 
 	    $("#search-results").html(html);
-
 	}
 });
 
